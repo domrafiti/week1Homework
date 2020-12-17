@@ -1,9 +1,11 @@
+/*This section applied to ALL the webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* applying the hex color to all items in the 'body' group */
 body {
     background-color: #d9dcd6;
 }
@@ -31,6 +33,7 @@ h3 {
     text-align: center;
 }
 
+/*these stylings will apply to the header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +41,7 @@ h3 {
     color: #ffffff;
 }
 
+/*these stylings will apply to the h1 tags in the header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
